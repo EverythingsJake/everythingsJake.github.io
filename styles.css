@@ -1,9 +1,50 @@
 /* Add some basic styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
-header, nav, main, footer {
+
+header {
+  background-color: #50b3a2;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #333;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main-content {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.footer-text {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
